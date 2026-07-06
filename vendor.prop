@@ -1,0 +1,8 @@
+# Device-specific properties for Samsung Galaxy Tab A9+ 5G (gta9p)
+# Platform-common properties are in device/samsung/sm6375-common/vendor.prop
+
+# Bluetooth
+bluetooth.device.default_name=Galaxy Tab A9+ 5G
+
+# Radio
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
