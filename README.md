@@ -9,12 +9,12 @@
 | Display | 1200x1920, 120Hz, 450 dpi |
 | RAM | 4/8 GB |
 | Storage | 64/128 GB |
-| Android | 14 (LineageOS 21) |
+| Android | 16 (LineageOS 23.2) |
 
 ## Build instructions
 
 ```bash
-repo init -u https://github.com/LineageOS/android.git -b lineage-21
+repo init -u https://github.com/LineageOS/android.git -b lineage-23.2
 repo sync
 ```
 
