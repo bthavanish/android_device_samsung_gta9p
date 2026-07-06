@@ -35,7 +35,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="gta9pxx-user 14 UP1A.231005.007 X216BXXS9DYJ7 release-keys" \
-    BuildFingerprint=samsung/gta9p/gta9p:14/UP1A.231005.007/X216BXXS9DYJ7:user/release-keys \
-    DeviceProduct=gta9pxx \
-    SystemName=gta9pxx
+    BuildDesc="gta9pxxx-user 16 BP1A.250605.031.A3 X216BXXS9DYJ7 release-keys" \
+    BuildFingerprint=samsung/gta9p:gta9p/16/BP1A.250605.031.A3/X216BXXS9DYJ7:user/release-keys \
+    DeviceProduct=gta9pxxx \
+    SystemName=gta9pxxx
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)

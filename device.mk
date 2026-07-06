@@ -40,8 +40,7 @@ PRODUCT_COPY_FILES += \
 # RIL
 PRODUCT_PACKAGES += \
     libxml2 \
-    secril_config_svc \
-    vendor.samsung.hardware.radio@2.2
+    secril_config_svc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
